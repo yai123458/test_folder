@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #cfe9ff 0%, #e7f3ff 100%);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #114b8b;
+    }
+    h1 {
+      font-size: clamp(3rem, 8vw, 8rem);
+      text-align: center;
+      margin: 0;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello World</h1>
+</body>
+</html>
